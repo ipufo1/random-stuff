@@ -1,5 +1,5 @@
 -- not made by ipufo1
--- Made by jLn0n
+-- made by jLn0n!
 -- https://raw.githubusercontent.com/OxygenClub/Random-LUAS/main/drawing-i-keep-updating-this.lua
 
 -- services
@@ -378,7 +378,7 @@ function DrawingLib.new(drawingType)
 
         imageFrame.Parent = drawingUI
         return setmetatable({
-            __OBJECt = imageFrame
+            __OBJECT = imageFrame
         }, {
             __newindex = function(_, index, value)
                 if typeof(imageObj[index]) == "nil" then return end
